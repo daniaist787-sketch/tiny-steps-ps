@@ -1,0 +1,3 @@
+Welcome to Tiny Steps!
+
+Because every great journey begins with a tiny step, we are here to accompany your little one from their very first steps and grow with them every step of the way. At Tiny Steps, we blend care, safety, and style to bring you a thoughtfully curated collection of kids' footwear—specially designed to support healthy foot development with flexible, breathable, and safe materials. From a baby’s first steps to big kids’ everyday adventures, we ensure maximum comfort and stability for every move.. Tiny Steps: Because their first steps create the sweetest memories and deserve nothing but the best.
