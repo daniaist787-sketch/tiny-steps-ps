@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme {
+    
+    --color-background: #F3FAFF;
+    --color-text: #53433F;
+    --color-primary: #CFE6F2;
+    --color-secondary: #FFAB91;
+    --font-Quicksand: 'Quicksand';
+}
+@layer base {
+  body {
+    font-family: var(--font-Quicksand);
+    background-color: var(--color-background);
+    color: var(--color-forground);
+
+  }
+}
