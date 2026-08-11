@@ -6,6 +6,8 @@
     --color-primary: #CFE6F2;
     --color-secondary: #FFAB91;
     --font-Quicksand: 'Quicksand';
+    --text-xsm: 1rem;
+    --text-xsm--line-height: 1.5rem;
 }
 @layer base {
   body {
@@ -14,4 +16,5 @@
     color: var(--color-forground);
 
   }
+  
 }
