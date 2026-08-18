@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail tiny steps</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body class="max-w-6xl mx-auto">
+    <header class="flex items-center justify-between max-w-6xl mx-auto pt-3 pb-3">
+        <div class="">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/TinySteps.png" alt="Tiny Steps logo">
+                </a>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class=" flex gap-6 text-amber-900 ml-12.5 font-semibold text-[14px] ">
+                <li><a href="./index.html" class="relative w-max after:absolute pb-1 after:content-[''] after:h-0.5 after:w-0 after:bottom-0 after:bg-amber-900  after:left-0 hover:after:w-full  hover:after:origin-center">Home</a></li>
+                <li><a href="./shop.html" class="relative w-max after:absolute pb-1 after:content-[''] after:h-0.5 after:w-0 after:bottom-0 after:bg-amber-900  after:left-0 hover:after:w-full hover:after:origin-center ">Shop</a></li>
+                <li><a href="./new. arrivals.html" class="relative w-max after:absolute pb-1 after:content-[''] after:h-0.5 after:w-0 after:bottom-0 after:bg-amber-900  after:left-0 hover:after:w-full hover:after:origin-center ">New Arrivals</a></li>
+                <li><a href="./best sellers.html" class="relative w-max after:absolute pb-1 after:content-[''] after:h-0.5 after:w-0 after:bottom-0 after:bg-amber-900  after:left-0 hover:after:w-full hover:after:origin-center ">Best Sellers</a></li>
+                <li><a href="./sale.html" class="relative w-max after:absolute pb-1 after:content-[''] after:h-0.5 after:w-0 after:bottom-0 after:bg-amber-900  after:left-0 hover:after:w-full hover:after:origin-center ">Sale</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form>
+            <label class="flex relative items-center ml-80.75 mr-7.5 "> 
+            <img src="./img/magnifying-glass-solid.svg " class="h-4 w-4 absolute left-2.5 ">
+            <input  type="search" placeholder="search" class="pl-9 h-11.25 w-47 rounded-full bg-[#DBF1FE] border-[0.5px] border-[#53433F]">
+            </label>
+            </form>
+        </div>
+     <div class="icons">
+        <ul class="flex gap-10 items-center">
+            <li> <img src="./img/Container.png"> </li>
+            <li><img src="./img/Icon.png"></li>
+        </ul>
+     </div>
+</div>
+</header>
+
+<div>
+    <ol class="flex gap-2">
+        <li><a href="#" class="text-[14px] font-semibold">Home</a></li>
+        <li class="flex items-center">
+            <div class="gap-2 flex items-center">
+                <span><img src="./img/chevron-right-solid.svg" class="h-2 w-1"/></span>
+                <a class="font-semibold text-[14px]">Sneakers</a>
+            </div>
+        </li>
+        <li class="flex items-center">
+            <div class="gap-2 flex items-center">
+                <span><img src="./img/chevron-right-solid.svg" class="h-2 w-1"/></span>
+                <a class="font-bold text-[14px]">Air-Jumpers</a>
+            </div>
+        </li>
+    </ol>
+</div>
+<section class="flex justify-between">
+    <div class="flex flex-col w-[638]px mt-12">
+        <img src="./img/20d.webp" class="h-[478px] w-[638px] rounded-2xl object-cover"/>
+        <div class="flex w-fit">
+            <img src="./img/21d.webp" class="h-[307px] w-1/2 rounded-2xl object-cover shrink-0 mt-4"/>
+            <img src="./img/22d.webp" class="h-[332px] w-1/2 rounded-2xl object-cover shrink-0 mt-2 ml-1"/>
+        </div>
+    </div>
+    <div class="mt-12">
+        <span class="h-6 w-[110px] bg-[#B6C3B8] rounded-full flex items-center justify-center"><p class="text-[#455148] text-[12px] font-medium">NEW ARRIVAL</p></span>
+        <div class=""> <h1 class="font-bold text-[48px] ">Air-Jumpers Pro</h1>
+            <span class="flex block gap-1"><img src="./img/4.5star.svg" class="h-5 w-[100px]"/>
+            <p class="text-[14px] font-semibold text-[#53433F]">(4.8/5 • 128 Reviews)</p></span>
+            <p class="text-[#8D4D38] mt-2 font-semibold text-[24px]">$54.00</p>
+        </div>
+        <div>
+            
+               <p class=" flex items-center font-semibold text-[14px] mt-6">Select Size</p>
+                <div class=" mt-7">
+                    <label><input type="radio" value="4C" name="size" class="hidden peer"><span class=" cursor-pointer font-medium text-[16px] rounded-2xl p-5 peer-checked:bg-[#FFAB91] peer-checked:text-[#8D4D38] peer-checked:border-2 peer-checked:border-[#8D4D38] transition ">4C</span></label>
+                    <label><input type="radio" value="5C" name="size" class="hidden peer"><span class=" cursor-pointer font-medium text-[16px] rounded-2xl p-5 peer-checked:bg-[#FFAB91] peer-checked:text-[#8D4D38] peer-checked:border-2 peer-checked:border-[#8D4D38] transition ">5C</span></label>
+                    <label><input type="radio" value="6C" name="size" class="hidden peer"><span class=" cursor-pointer font-medium text-[16px] rounded-2xl p-5 peer-checked:bg-[#FFAB91] peer-checked:text-[#8D4D38] peer-checked:border-2 peer-checked:border-[#8D4D38] transition ">6C</span></label>
+                    <label><input type="radio" value="7C" name="size" class="hidden peer"><span class=" cursor-pointer font-medium text-[16px] rounded-2xl p-5 peer-checked:bg-[#FFAB91] peer-checked:text-[#8D4D38] peer-checked:border-2 peer-checked:border-[#8D4D38] transition ">7C</span></label>
+                    <label><input type="radio" value="8C" name="size" class="hidden peer"><span class=" cursor-pointer font-medium text-[16px] rounded-2xl p-5 peer-checked:bg-[#FFAB91] peer-checked:text-[#8D4D38] peer-checked:border-2 peer-checked:border-[#8D4D38] transition ">8C</span></label>
+                </div>
+                <a href="#" class="block pt-7 underline underline-offset-4 text-[#8D4D38]">Size Guide</a>
+        </div>
+        <div>
+            <span>
+                <p class=" flex justify-between items-center font-semibold text-[14px] mt-6">Choose Color: Coral Dream</p>
+                <div class="flex gap-2 mt-3">
+                    <label class="cursor-pointer "><input type="radio" value="#FFAB91" name="color" class="hidden peer "><span class="w-11 h-11 rounded-full bg-[#FFAB91] peer-checked:border-1 peer-checked:border-amber-950 transition block"></span></label>
+                    <label class="cursor-pointer "><input type="radio" value="#D3E2ED" name="color" class="hidden peer "><span class="w-11 h-11 rounded-full bg-[#D3E2ED] peer-checked:border-1 peer-checked:border-amber-950 transition block"></span></label>
+                    <label class="cursor-pointer "><input type="radio" value="#FFECB3" name="color" class="hidden peer"><span class="w-11 h-11 rounded-full bg-[#B6C3B8] peer-checked:border-1 peer-checked:border-amber-950 transition block"></span></label>
+                </div>
+            </span>
+        </div>
+        <button type="button" class="h-[72px] w-[433px] bg-[#FFAB91] rounded-2xl mt-12">
+            <span class="flex block justify-center items-center gap-2">
+            <img src="./img/Container.png" class="h-3 w-3"/>
+            <p class="text-[16px] font-normal text-[#793D29]">Add to Cart</p>
+            </span>
+        </button>
+        <button type="button" class="text-[#793D29] text-[16px] font-normal mt-4 block mx-auto pt-6">Save to Wishlist</button>
+        <hr class="border-[#CFE6F2] mt-18">
+        <div class="flex gap-6 mt-6">
+            <span class="flex gap-3 justify-center items-center">
+                <img src="./img/brown shipping.svg" class="h-4 w-5 "/>
+                <p class="font-medium text-[12px]">Free Shipping</p>
+            </span>
+            <span class="flex gap-2 ">
+                <img src="./img/retry.svg" class="h-4 w-5"/>
+                <p class="font-medium text-[12px]">Free Shipping</p>
+            </span>
+        </div>
+    </div>
+</section>
+<div class="h-[664px] bg-[#E6F6FF] rounded-2xl relative mt-12 pb-12">
+    <div class="absolute flex py-30 px-20 mx-auto gap-12">
+        <article class="font-normal text-[18px] text-[#3B4951] whitespace-pre-line">
+            <span class="whitespace-pre-line text-[#8D4D38] text-[24px] font-semibold">Built for Bouncing, Designed for
+            Growing.</span>
+            <p class="mt-6">TinySteps Air-Jumpers feature our proprietary
+            **Cloud-Stitch™ technology**, specifically
+            engineered for the unique anatomy of developing
+            feet. The ultra-responsive arch support mimics the
+            natural curve of a child's foot, providing stability for
+            first steps and energy return for big jumps.</p>
+            <div class="flex items-center gap-3 mt-6"><span class="h-5 w-9 bg-[#FFDBD0] rounded-full flex justify-center items-center "><img src="./img/right.svg" class="h-3 w-4"/></span>
+            <div class=""><p class="text-[16px] font-normal">Zero-drop heel for natural posture alignment.</p></div></div>
+            <div class="flex items-center gap-3"><span class="h-5 w-9 bg-[#FFDBD0] rounded-full flex justify-center items-center"><img src="./img/right.svg" class="h-3 w-4"/></span>
+            <p class="text-[16px] font-normal whitespace-pre-line">Extra-wide toe box to prevent pinching during growth
+            spurts.</p></div>
+        </article>
+        <div class="h-[472px] w-[472px] relative bg-white rounded-2xl items-center justify-center flex">
+            <img src="./img/23d.webp" class="absolute "/>
+        </div>
+    </div>
+</div>
+<div class="pb-12">
+    <p class="font-semibold text-[24px] mt-7 text-center">Materials & Care</p>
+    <div class="mt-6 flex flex-col items-center">
+        <span class="h-9 w-[768px] bg-[#E6F6FF] rounded-2xl block flex px-12 justify-between items-center">
+        <p class="font-semibold text-[14px]">What's inside?</p>
+        <img src="./img/chev down.svg" class="w-5 h-2"/>
+        </span>
+
+        <span class="h-9 w-[768px] bg-[#E6F6FF] rounded-2xl block flex px-12 justify-between items-center mt-3">
+        <p class="font-semibold text-[14px]">How to wash?</p>
+        <img src="./img/chev down.svg" class="w-5 h-2"/>
+        </span>
+    </div>
+</div>
+<div class="flex  items-center justify-between pt-7 pb-12">
+   <p class="font-semibold text-[24px] flex flex-col">Parent Approved <span class="font-normal text-[16px]">See why thousands of parents trust TinySteps.</span></p>
+   <button type="button" class="h-12 w-[215px] bg-[#CFE6F2] rounded-full ">Write a Review</button>
+</div>
+<div class="flex gap-6 pb-12"><div>
+    <div class="h-[339px] w-[368px] bg-white rounded-2xl relative">
+    <div class=" flex flex-col  items-start p-12">
+        <img src="./img/4.5star.svg" class="h-4 w-14"/>
+    <p class="whitespace-pre-line text-[16px] font-normal ">
+    <span class="font-semibold text-[20px] whitespace-pre-line ">"The only shoes he'll
+    wear!"</span>
+    "Leo is super picky about tags
+    and seams, but these are so soft
+    inside he doesn't even need
+    socks. Plus, they're adorable."
+    </p>
+    <p class="font-semibold text-[14px] flex gap-2 items-center mt-3 "> <span class="h-8 w-8 rounded-full bg-[#D6E5EF] block "></span>Sarah M. • Verified Buyer</p>
+    </div>
+</div>
+</div>
+<div>
+    <div class="h-[339px] w-[368px] bg-white rounded-2xl relative">
+    <div class=" flex flex-col  items-start p-12">
+        <img src="./img/4.5star.svg" class="h-4 w-14"/>
+    <p class="whitespace-pre-line text-[16px] font-normal ">
+    <span class="font-semibold text-[20px]  ">"Sturdy & Washable"</span>
+    "We noticed a huge difference in
+how our daughter runs. She's
+more stable and doesn't trip as
+often. Highly recommend for
+active toddlers!"
+    </p>
+    <p class="font-semibold text-[14px] flex gap-2 items-center mt-3 "> <span class="h-8 w-8 rounded-full bg-[#D6E5EF] block "></span>David K. • Verified Buyer</p>
+    </div>
+</div>
+</div>
+<div>
+    <div class="h-[339px] w-[368px] bg-white rounded-2xl relative pb-12">
+    <div class=" flex flex-col  items-start p-12">
+        <img src="./img/4.5star.svg" class="h-4 w-14"/>
+    <p class="whitespace-pre-line text-[16px] font-normal ">
+    <span class="font-semibold text-[20px]">"Great Support"</span>
+    "Survived a trip to the muddy
+    park and came out of the wash
+    looking brand new. The sizing is
+    true to the guide."
+    </p>
+    <p class="font-semibold text-[14px] flex gap-2 items-center mt-3 "> <span class="h-8 w-8 rounded-full bg-[#D6E5EF] block "></span>Emily R. • Verified Buyer</p>
+    </div>
+</div>
+</div></div>
+<p class="font-semibold text-[24px] mt-4">Complete the Look</p>
+<div class=" flex w-fit mt-10">
+<div class="p-3 mt-2">
+        <img src="./img/24d.webp" class="rounded-2xl "/>
+        <p class="flex flex-col mt-4 font-semibold text-[14px]">Patterned Joy Socks (3-Pack)<span class="text-[#8D4D38] font-normal text-[16px]">$12.00</span></p>
+</div>
+<div class=" p-3">
+        <img src="./img/25d.webp" class="rounded-2xl"/>
+        <p class="flex flex-col mt-4 font-semibold text-[14px]">No-Tie Elastic Laces<span class="text-[#8D4D38] font-normal text-[16px]">$8.00</span></p>
+</div>
+<div class=" p-3">
+        <img src="./img/26d.webp" class="rounded-2xl"/>
+        <p class="flex flex-col mt-4 font-semibold text-[14px]">Mini Care Cleaning Kit<span class="text-[#8D4D38] font-normal text-[16px]">$15.00</span></p>
+</div>
+<div class=" p-3">
+        <img src="./img/27d.webp" class="rounded-2xl"/>
+        <p class="flex flex-col mt-4 font-semibold text-[14px]">Cloud-Walk Shorts<span class="text-[#8D4D38] font-normal text-[16px]">$22.00</span></p>
+</div>
+</div>
+
+    
+</body>
+</html>
